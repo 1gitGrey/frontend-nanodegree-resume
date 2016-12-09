@@ -156,15 +156,19 @@ ul {
   list-style-type: none;
 }
 
-.biopic {
-  float: left;
-  padding: 10px;
-  width: 200px;
-  display: none;
-}
+
 
 img {
   padding: 10px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.biopic {
+  float: left;
+  padding: 10px;
+  width: 50%;
+  display: none;
 }
 
 span {

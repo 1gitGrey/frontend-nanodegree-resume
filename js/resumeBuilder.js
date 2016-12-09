@@ -22,58 +22,129 @@ var bio = {
        "welcomeMessage": "Everyday is a ripe opprotunity to grow.",
 
   			"skills":
-
   				[
-
-          	"Fluency in 5 Foreign Languages", "Information Sponge", "Diverse Viewpoints", "Critical Abstract Thinker"
-
+			          	"Fluency in 5 Foreign Languages",
+			          	"Information Sponge",
+			          	"Diverse Viewpoints",
+			          	"Critical Abstract Thinker"
         		],
+			  		"bioPic": "images/grey.jpg",
+	  			"display":
+				function(){
+  					var formattedName = HTMLheaderName.replace("%data%", bio.name);
+					var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
+					var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
+					var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
+
+					var formattedContactArray = [];
+					formattedContactArray.push(HTMLemail.replace("%data%", bio.contacts.email));
+					formattedContactArray.push(HTMLgithub.replace("%data%", bio.contacts.github));
+					formattedContactArray.push(HTMLtwitter.replace("%data%", bio.contacts.twitter));
+					formattedContactArray.push(HTMLlocation.replace("%data%", bio.contacts.location));
 
 
-  		"bioPic": "images/grey.jpg",
+					$("#header").prepend(formattedRole);
+					$("#header").prepend(formattedName);
+					$("#header").append(formattedBioPic);
+					$("#header").append(formattedWelcomeMsg);
 
-  			"display":
+					if(bio.skills.length > 0) {
+						$("#header").append(HTMLskillsStart);
 
-  										function(){
-            								//
+						for(i in bio.skills) {
+							$("#skills").append(HTMLskills.replace("%data%", bio.skills[i]));
+						}
+					}
+
+					for(i in formattedContactArray) {
+						$("#topContacts").append(formattedContactArray[i]);
+						$("#footerContacts").append(formattedContactArray[i]);
+					}
 
 
           							 }
-};
+          							};
+
 
 var education = {
 
+							"schools" :
+			[
 
-			"schools" 	: 		[
+				{
+					"name":"Yale University",
+					"location":"New Haven, CT",
+					"degree":"Bachelor Fine Arts",
+					"majors":["Fine Art Photography", "Film Production"],
+					"dates": "2009-2013",
+					"url": "http://yale.edu"
 
-			{
-				"name":"",
-				"location":"",
-				"degree":"",
-				"majors":["", ""],
-				"dates": "2009-2013",
-				"url": ""
+				},
+				{
+					"name":"Campbell High School",
+					"location":"Smyrna, GA",
+					"degree":"Georgia HS Diploma",
+					"majors":["HL Visual Arts", "HL Mathematics"],
+					"dates": "2009-2013",
+					"url": "http://www.cobbk12.org/campbellhs/"
 
-			},{
-				"name":"",
-				"location":"",
-				"degree":"",
-				"majors":["", ""],
-				"dates": "2009-2013",
-				"url": ""
+				},
+			 	{
+				 	"name" : "International Baccalaureate Programme",
+				 	"location" : "Augsburg, Germany",
+				 	"degree" : "Arbitur Exams",
+				 	"majors" : ["SL Physik", "Ethik", "Kunst", "Juristerei"],
+				 	"dates" : "2008-2010",
+				 	"url" : "http://ibo.edu"
+			 	}
+			 ],
+							"onlineCourses":
+			 [
+				{	"title" : "NanoDegree Program -- Introduction to CS",
+					"school": "Udacity",
+					"dates" : "2016-2017",
+					"url": "https://classroom.udacity.com/nanodegrees/nd000"
+				},
+				{	"title" : "NanoDegree Program -- Front-End Web Development",
+					"school": "Udacity",
+					"dates" : "2016-Current",
+					"url": "https://classroom.udacity.com/nanodegrees/nd200"
+				}
+			],
 
-			}],
-			"onlineCourses": [
-			{"title" : "",
-			"school": "",
-			"dates" : "2016-2017",
-			"url": ""},
-{"title" : "",
-			"school": "",
-			"dates" : "2016-2017",
-			"url": ""}],
-			"display": function(){
-				//
+							"display": function(){
+if(education.schools.length > 0 || education.onlineCourses.length > 0) {
+		for(i in education.schools) {
+			$("#education").append(HTMLschoolStart);
+
+			var formattedSchoolName = HTMLschoolName.replace("%data%", education.schools[i].name).replace("#", education.schools[i].url);
+			var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", education.schools[i].degree);
+			var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.schools[i].dates);
+			var formattedSchoolLocation = HTMLschoolLocation.replace("%data%", education.schools[i].location);
+			var formattedSchoolMajors = HTMLschoolMajor.replace("%data%", education.schools[i].majors);
+
+			$(".education-entry:last").append(formattedSchoolName + formattedSchoolDegree);
+			$(".education-entry:last").append(formattedSchoolDates);
+			$(".education-entry:last").append(formattedSchoolLocation);
+			$(".education-entry:last").append(formattedSchoolMajors);
+		}
+
+		if(education.onlineCourses.length > 0) {
+			$("#education").append(HTMLonlineClasses);
+			for(i in education.onlineCourses) {
+				$("#education").append(HTMLschoolStart);
+				var formattedOnlineTitle = HTMLonlineTitle.replace("%data%", education.onlineCourses[i].title).replace("#", education.onlineCourses[i].url);
+				var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[i].school).replace("#", education.schools[i].url);
+				var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[i].dates);
+				var formattedOnlineURL = HTMLonlineURL.replace("%data%", education.onlineCourses[i].url).replace("#", education.onlineCourses[i].url);
+
+				$(".education-entry:last").append(formattedOnlineTitle + formattedOnlineSchool);
+				$(".education-entry:last").append(formattedOnlineDates);
+				$(".education-entry:last").append(formattedOnlineURL);
+			}
+		}
+
+	}
 			}
 };
 
@@ -81,33 +152,45 @@ var work = {
 
 	"jobs" : [ {
 
-		"employer" : "",
-		"title"   : "",
-		"location" : "",
-		"dates" : "",
-		"description" : ""
+		"employer" : "PepsiCo",
+		"title"   : "Brand Marketing Analyst",
+		"location" : "Purchase, NY",
+		"dates" : "2008-2010",
+		"description" : "Lorem ipsum Sit in labore Excepteur adipisicing aute aliquip dolore nostrud non anim ea dolore magna culpa irure reprehenderit adipisicing laboris reprehenderit in cillum aliqua eiusmod ex reprehenderit voluptate."
 	}, {
 
-		"employer" : "",
-		"title"   : "",
-		"location" : "",
-		"dates" : "",
-		"description" : ""
+		"employer" : "Imaginity Seragini",
+		"title"   : "Regional Brand Consultant",
+		"location" : "Buenos Aires, Argentina",
+		"dates" : "2008",
+		"description" : "Lorem ipsum Culpa sit nisi Ut incididunt mollit aliqua non magna ea veniam nulla anim culpa aute eiusmod enim velit incididunt ea occaecat ex cillum Ut officia enim labore commodo in."
 	}, {
 
-		"employer" : "",
-		"title"   : "",
-		"location" : "",
-		"dates" : "",
-		"description" : ""
+		"employer" : "Education First",
+		"title"   : "EF360 Business Analyst",
+		"location" : "London, UK",
+		"dates" : "2013-2015",
+		"description" : "Lorem ipsum Fugiat consectetur et pariatur sit sed cillum cillum fugiat officia dolor dolore id pariatur veniam non proident irure labore Duis nulla consectetur proident esse Ut cillum quis in nisi pariatur amet labore cupidatat."
 	}
 
 	], "display" : function(){
-		//
+		for(i in work.jobs) {
+			var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[i].employer);
+			var formattedWorkTitle = HTMLworkTitle.replace("%data%", work.jobs[i].title);
+			var formattedWorkLocation = HTMLworkLocation.replace("%data%", work.jobs[i].location);
+			var formattedDatesWorked = HTMLworkDates.replace("%data%", work.jobs[i].dates);
+			var formattedWorkDescription = HTMLworkDescription.replace("%data%", work.jobs[i].description);
+
+			var formattedEmployerWorkTitle = formattedEmployer + formattedWorkTitle;
+			$("#workExperience").append(HTMLworkStart);
+			$(".work-entry:last").append(formattedEmployerWorkTitle);
+			$(".work-entry:last").append(formattedWorkLocation);
+			$(".work-entry:last").append(formattedDatesWorked);
+			$(".work-entry:last").append(formattedWorkDescription);
 	}
 
 
-};
+}};
 
 var projects = {
 
@@ -135,12 +218,35 @@ var projects = {
 			"images" : [ "images/proj_c_1.jpg", "images/proj_c_2.jpg"]
 		}
 	], "display" : function() {
-		//
+if(projects.projects.length > 0) {
+		for(i in projects.projects) {
+			$("#projects").append(HTMLprojectStart);
+
+			var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.projects[i].title).replace("#", projects.projects[i].url);
+			var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.projects[i].dates);
+			var formattedProjectDescription = HTMLprojectDescription.replace("%data%", projects.projects[i].description);
+
+			$(".project-entry:last").append(formattedProjectTitle);
+			$(".project-entry:last").append(formattedProjectDates);
+			$(".project-entry:last").append(formattedProjectDescription);
+
+			for(img in projects.projects[i].images) {
+				var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.projects[i].images[img]);
+				$(".project-entry:last").append(formattedProjectImage);
+			}
+
+
+		}
+
+}
 	}
 
 };
 
-
+bio.display();
+work.display();
+education.display();
+projects.display();
 
 
 // google maps
