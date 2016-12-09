@@ -1,0 +1,834 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"windo",
+				"windowDescription"
+			],
+			[
+				"HTMLonln",
+				"HTMLonlineClasses"
+			],
+			[
+				"onlin",
+				"onlineSchoolTitle"
+			],
+			[
+				"in",
+				"insertBefore\t.insertBefore()"
+			],
+			[
+				"online",
+				"onlineCourses"
+			],
+			[
+				"getEle",
+				"getElementsByTagName\t(index.html)"
+			],
+			[
+				"educ",
+				"education-entry\t(index.html)"
+			],
+			[
+				"form",
+				"formattedLocation"
+			],
+			[
+				"format",
+				"formattedworkEmployer"
+			],
+			[
+				"formatted",
+				"formattedworkTitle"
+			],
+			[
+				"C",
+				"Consultant"
+			],
+			[
+				"forma",
+				"formattedRole"
+			],
+			[
+				"trailer",
+				"trailer_youtube_url"
+			],
+			[
+				"validation",
+				"validation_helper"
+			],
+			[
+				"hard",
+				"hard_answers"
+			],
+			[
+				"moder",
+				"moderate_answers"
+			],
+			[
+				"vlaida",
+				"validate_responses"
+			],
+			[
+				"vali",
+				"validation_helper_answers"
+			],
+			[
+				"va",
+				"validation_helper_answers"
+			],
+			[
+				"easy",
+				"easy_quiz"
+			],
+			[
+				"valida",
+				"validation_helper_data"
+			],
+			[
+				"get",
+				"getDifficulty"
+			],
+			[
+				"difficul",
+				"difficulty_input"
+			],
+			[
+				"qui",
+				"quiz_answers"
+			],
+			[
+				"validation_",
+				"validation_helper_data"
+			],
+			[
+				"quiz",
+				"quiz_data"
+			],
+			[
+				"hard_",
+				"hard_quiz"
+			],
+			[
+				"modera",
+				"moderate_answers"
+			],
+			[
+				"valid",
+				"valid_difficulty_options"
+			],
+			[
+				"diffi",
+				"difficulty_input"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"trump",
+				"trumpland.html\t(index.html)"
+			],
+			[
+				"backgoun",
+				"background-color"
+			],
+			[
+				"bcl",
+				"background-color"
+			],
+			[
+				"mark",
+				"mark_halperin\t(index.html)"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"main",
+				"main_content\t(index.html)"
+			],
+			[
+				"backgrou",
+				"background-image"
+			],
+			[
+				"customers",
+				"customers"
+			],
+			[
+				"style",
+				"stylesheet"
+			],
+			[
+				"coffee",
+				"coffeeSources"
+			],
+			[
+				"rea",
+				"react-container"
+			],
+			[
+				"ave",
+				"avgScore"
+			],
+			[
+				"pl",
+				"playersScores"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 342.0,
+		"last_filter": "in",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"cdn",
+				"Snippet: bs3-cdn-css"
+			],
+			[
+				"lore",
+				"LoremIpsum: (30) lots"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"termin",
+				"Terminal: Open"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"w3",
+				"W3C Validators: Validate HTML5"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"schemr",
+				"Schemr: List all schemes"
+			],
+			[
+				"markdo",
+				"GitHub Flavored Markdown: Preview"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax py",
+				"Set Syntax: Python"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"glu",
+				"Glue - Launch"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"brow",
+				"Browse Mode: Right Sidebar"
+			],
+			[
+				"build",
+				"Build With: Python"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"Find",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"colorco",
+				"Tweak Colorcode to current color scheme"
+			],
+			[
+				"Schemr",
+				"Schemr: List all schemes"
+			],
+			[
+				"Sche",
+				"Schemr: Random scheme"
+			],
+			[
+				"Themr",
+				"Themr: List themes"
+			],
+			[
+				"val",
+				"W3C Validators: Validate HTML5"
+			],
+			[
+				"vali",
+				"W3C Validators: Validate HTML5"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"\tcdn",
+				"Snippet: bs3-cdn-js"
+			],
+			[
+				"cdns",
+				"Snippet: bs3-cdn-js"
+			],
+			[
+				"css3",
+				"Set Syntax: CSS3"
+			],
+			[
+				"",
+				"Side Bar: Enable Syncing"
+			],
+			[
+				"layou",
+				"Layout: Split Current Pane Horizontal"
+			],
+			[
+				"file",
+				"File Navigator: Open"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sync",
+				"Set Syntax: CSS3"
+			],
+			[
+				"vie",
+				"View In Browser"
+			],
+			[
+				"browser",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"css",
+				"Set Syntax: CSS3"
+			],
+			[
+				"view",
+				"View In Browser"
+			],
+			[
+				"local",
+				"Snippet: local_css"
+			],
+			[
+				"html",
+				"Snippet: html5"
+			],
+			[
+				"settings",
+				"Side-by-Side: Sublime Settings"
+			],
+			[
+				"Packa Dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"set css",
+				"Set Syntax: CSS"
+			],
+			[
+				"set syn css",
+				"Set Syntax: CSS"
+			],
+			[
+				"Lore",
+				"LoremIpsum: (5) a bit"
+			],
+			[
+				"lorem",
+				"LoremIpsum: (30) lots"
+			],
+			[
+				"w",
+				"W3C Validators: Validate HTML5"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sche",
+				"Schemr: List all schemes"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"schrme",
+				"Schemr: Random scheme"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"bs3 nav",
+				"Snippet: bs3-navbar-fixed-top"
+			],
+			[
+				"dash",
+				"DashDoc: invoke Dash with selected word (flip syntax sensitivity)"
+			],
+			[
+				"them",
+				"Themr: Next theme"
+			],
+			[
+				"themr",
+				"Themr: List themes"
+			],
+			[
+				"package set",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"package control ",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"html5",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"schem",
+				"Schemr: List all schemes"
+			],
+			[
+				"satisfy",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"jsx",
+				"Set Syntax: React JSX"
+			],
+			[
+				"React",
+				"Set Syntax: React JSX"
+			],
+			[
+				"react",
+				"Set Syntax: React Templates"
+			],
+			[
+				"theme",
+				"Themr: Next theme"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax",
+				"Set Syntax: C"
+			],
+			[
+				"syntax C",
+				"Set Syntax: C"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"swift",
+				"Set Syntax: Swift"
+			],
+			[
+				"Pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Snippet: bs3-pagination-small"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"html5\t",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"javascrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Them",
+				"Themr: List themes"
+			],
+			[
+				"httpml",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"schr",
+				"Schemr: List all schemes"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 68.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/greygrissom/Downloads/IMG_0073.JPG",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/Gold/frontend-nanodegree-resume/js/resumeBuilder.js",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/Gold/frontend-nanodegree-resume/index.html",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/Gold/frontend-nanodegree-resume/images/a.jpg",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/Gold/frontend-nanodegree-resume/images/1.jpg",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/Gold/frontend-nanodegree-resume/images/y.jpg",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/Gold/frontend-nanodegree-resume/images/3.jpg",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/Gold/frontend-nanodegree-resume/images/u.jpg",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/Gold/frontend-nanodegree-resume/images/x.jpg",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/Gold/frontend-nanodegree-resume/images/2.jpg",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/Gold/frontend-nanodegree-resume/images/d.jpg",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/Gold/frontend-nanodegree-resume/images/z.jpg",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/Gold/frontend-nanodegree-resume/js/jsonjs",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/PYTHON/movie_website/entertainment_center.py",
+		"/Users/greygrissom/Library/Application Support/Sublime Text 3/Packages/AutoPEP8/AutoPep8.sublime-settings",
+		"/Users/greygrissom/gba4ios/Podfile",
+		"/Users/greygrissom/.pythonrc",
+		"/Users/greygrissom/.zshrc",
+		"/Users/greygrissom/.pythonrc.py",
+		"/Users/greygrissom/.zprofile",
+		"/Users/greygrissom/Gold/fill_in_the_blanks/fill.py",
+		"/Users/greygrissom/Gold/fill_in_the_blanks/fill_try.py",
+		"/Users/greygrissom/Gold/fill_in_the_blanks/fill_in_the_blanks.py",
+		"/Users/greygrissom/.spf13-vim-3/README.markdown",
+		"/Users/greygrissom/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/greygrissom/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/PYTHON/final.py",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/PYTHON/Stage2/Quiz_Staging.py",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/PYTHON/Stage2/quiz.py",
+		"/Users/greygrissom/Gold/start_track.py",
+		"/Users/greygrissom/Gold/repeat_question.py",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/PYTHON/Stage2/quiz",
+		"/Users/greygrissom/test_quiz.py",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/GG/assets/css/main.css",
+		"/Users/greygrissom/Library/Application Support/Sublime Text 3/Packages/User/PlainTasks.sublime-settings",
+		"/Users/greygrissom/Library/Application Support/Sublime Text 3/Packages/PlainTasks/PlainTasks (OSX).sublime-settings",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/HTML/boots/docs/despair.css",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/boots/docs/despair.css",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/boots/docs/trumpland.html",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/boots/docs/trumpland.css",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/Circus/html/secondScripture.html",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/Circus/html/firstScripture.html",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/02_Elections/assets/css/type.css",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/Circus/index.html",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/Circus/css/base.css",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/Circus/css/main.css",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/Circus/css/type.css",
+		"/Users/greygrissom/Desktop/dist/docs/css/docs.min.css",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/Circus/css/2.css",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/Circus/html/thirdScripture.html",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/Circus/html/revelations.html",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/Circus/html/fourthScripture.html",
+		"/Users/greygrissom/Downloads/ipnd-starter-code-master/stage_1/lesson_1.2_css/style.css",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/Circus/css/reset.css",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/Intro/css/reset.css",
+		"/Users/greygrissom/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/Intro/css/main.css",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/Intro/index.html",
+		"/Users/greygrissom/Library/Mobile Documents/com~apple~CloudDocs/NanoDegree/Intro/@./css/main.css",
+		"/var/folders/kh/d755rhy90cs4n4c4ynng7wb00000gn/T/com.apple.iChat/Messages/Transfers/FullSizeRender.jpg.jpeg",
+		"/Users/greygrissom/Desktop/dist/index.html",
+		"/Users/greygrissom/Desktop/dist/css/vitality-turquoise.css",
+		"/Users/greygrissom/Desktop/dist/js.js",
+		"/Users/greygrissom/Desktop/dist/es6.js",
+		"/Users/greygrissom/Desktop/dist/micahgrey.html",
+		"/Users/greygrissom/Desktop/dist/_.html",
+		"/Users/greygrissom/Desktop/dist/js/vitality.js",
+		"/Users/greygrissom/Desktop/dist/mail/contact_me.php",
+		"/Users/greygrissom/Sites/micahgrey/.gitignore",
+		"/Users/greygrissom/Sites/_MG_/app/index.html",
+		"/Users/greygrissom/Sites/_MG_/app/process/sass/style.scss",
+		"/Users/greygrissom/Sites/_MG_/app/.DS_Store",
+		"/Users/greygrissom/Sites/_MG_/app/process/.DS_Store",
+		"/Users/greygrissom/Sites/template/.gitignore",
+		"/Users/greygrissom/Sites/_MG_/app/process/scss/style.scss",
+		"/Users/greygrissom/Sites/_MG_/app/process/scss/_mixins.scss",
+		"/Users/greygrissom/Sites/_MG_/app/process/scss/_base.scss",
+		"/Users/greygrissom/Sites/_MG_/app/process/scss/_variables.scss",
+		"/Users/greygrissom/Sites/_MG_/app/style.scss",
+		"/Users/greygrissom/Sites/_MG_/app/js/base.js",
+		"/Users/greygrissom/Sites/_MG_/app/css/base.css",
+		"/Users/greygrissom/Sites/_MG_/app/process/js/bootstrap.js",
+		"/Users/greygrissom/Sites/_MG_/app/process/js/form.js",
+		"/Users/greygrissom/Sites/_MG_/app/process/js/device.js",
+		"/Users/greygrissom/Sites/_MG_/app/js/jquery.min.js",
+		"/Users/greygrissom/Sites/_MG_/app/js/cover.js",
+		"/Users/greygrissom/Sites/_MG_/app/process/css/bootstrap.css",
+		"/Users/greygrissom/Sites/_MG_/app/gulpfile.js",
+		"/Users/greygrissom/Sites/_MG_/.gitignore",
+		"/Users/greygrissom/Sites/_MG_/app/bower_components/jquery/dist/jquery.js",
+		"/Users/greygrissom/Sites/_MG_/app/process/js/wow.js",
+		"/Users/greygrissom/Sites/micahgrey/package.json",
+		"/Users/greygrissom/Sites/MG2/builds/development/css/animate.css",
+		"/Users/greygrissom/Sites/MG2/builds/development/css/bootstrap.min.css",
+		"/Users/greygrissom/Sites/MG2/builds/development/css/cover.css",
+		"/Users/greygrissom/Sites/micahgrey/components/scripts/easing.js",
+		"/Users/greygrissom/Sites/micahgrey/builds/development/css/cover.css",
+		"/Users/greygrissom/Sites/micahgrey/builds/development/index.html",
+		"/Users/greygrissom/Downloads/Carbonnight.tmTheme",
+		"/Users/greygrissom/Sites/MG/some.js",
+		"/Users/greygrissom/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/greygrissom/Sites/MG/components/sass/_modules.scss",
+		"/Users/greygrissom/Sites/MG/components/sass/style.scss",
+		"/Users/greygrissom/Sites/MG/components/coffee/tagline.coffee",
+		"/Users/greygrissom/Sites/MG/gulpfile.js",
+		"/Users/greygrissom/Sites/MG/components/sass/_base.scss",
+		"/Users/greygrissom/Sites/MG/builds/development/index.html",
+		"/Users/greygrissom/Sites/MG/components/scripts/tagline.js",
+		"/Users/greygrissom/Sites/MG/builds/development/js/script.js",
+		"/Users/greygrissom/Sites/MG/package.json",
+		"/Users/greygrissom/Sites/MG/components/scripts/rclick.js",
+		"/Users/greygrissom/Sites/MG/README.md",
+		"/Users/greygrissom/Sites/MG/components/scripts/pixgrid.js",
+		"/Users/greygrissom/Sites/MG/components/sass/_rclick.scss",
+		"/Users/greygrissom/Sites/MG/components/sass/_pixgrid.scss",
+		"/Users/greygrissom/Sites/MG/components/sass/_variables.scss",
+		"/Users/greygrissom/Sites/MG/components/sass/_mixins.scss",
+		"/Users/greygrissom/Sites/MG/.gitignore",
+		"/Users/greygrissom/Library/Application Support/Sublime Text 3/Packages/AutoAligner/aligner_command.py",
+		"/Users/greygrissom/Desktop/ECMA6/Exercise Files/Ch02/02_03/start/script.js",
+		"/Users/greygrissom/Desktop/ECMA6/Exercise Files/Ch02/02_03/start/webpack.config.js",
+		"/Users/greygrissom/Desktop/ECMA6/Exercise Files/Ch03/03_03/completed/index.html",
+		"/Users/greygrissom/Downloads/Ex_Files_ReactJS_Basics/Ch04/04_03/start/index.html",
+		"/Users/greygrissom/Workspace/001_GIT/whitespace.js",
+		"/Users/greygrissom/Desktop/C/terminal.glue",
+		"/Users/greygrissom/Desktop/C/function.c",
+		"/Users/greygrissom/Library/Application Support/Sublime Text 3/Packages/Glue/Glue.sublime-settings",
+		"/Users/greygrissom/Library/Application Support/Sublime Text 3/Packages/User/Glue.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Mobile",
+			")\n",
+			"syntax",
+			"indent",
+			"scientist",
+			"indiegogo",
+			"jpg",
+			"blue",
+			"font-size",
+			"footagp",
+			"img/avatar",
+			"img",
+			"plane",
+			"alt+w",
+			"},\n",
+			"semi",
+			"button"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 24.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ans",
+				"answers.html"
+			],
+			[
+				"",
+				"app/gulpfile.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
