@@ -1,29 +1,16 @@
-/*
-This is empty on purpose! Your code to build the resume will go here.
- */
-
-
 var bio = {
-
-  				"name" : "Grey Grissom",
-            	"role" : "Web Developer",
-  			"contacts" :
-
-  				{
-
-             	 "mobile"	: "415-304-5679",
-             	"email"		: "grey.grissom@aya.yale.edu",
-             	"github"	: "1gitGrey",
-             	"twitter"	: "@greynoir",
-              	"location"  : "San Francisco, CA"
-
-            	},
-
-       "welcomeMessage": "Everyday is a ripe opprotunity to grow.",
-
-  			"skills":
-  				[
-			          	"Fluency in 5 Foreign Languages",
+  	"name" : "Grey Grissom",
+   	"role" : "Web Developer",
+  	"contacts" :
+  	{ "mobile"	: "415-304-5679",
+   	"email"		: "grey.grissom@aya.yale.edu",
+      "github"	: "1gitGrey",
+      "twitter"	: "@greynoir",
+    "location"  : "San Francisco, CA"
+    },
+    "welcomeMessage": "Everyday is a ripe opprotunity to grow.",
+  	"skills":			[
+"Fluency in 5 Foreign Languages",
 			          	"Information Sponge",
 			          	"Diverse Viewpoints",
 			          	"Critical Abstract Thinker"
