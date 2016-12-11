@@ -24,9 +24,10 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 
   <!-- Load the page styles. -->
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
 
-
-
+<link href="https://fonts.googleapis.com/css?family=Heebo|Lato" rel="stylesheet">
   <!--
   Uncomment the <script> tag below when you're ready to add an interactive Google Map to your resume!
   -->
@@ -45,6 +46,16 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     <div id="header" class="center-content clear-fix">
       <ul id="topContacts" class="flex-box"></ul>
     </div>
+    <nav id="nav-bar" class="">
+        <ul id="nav-menu">
+          <li><a class="nav-item" href="#workExperience">WORK</a>
+          </li>
+          <li><a class="nav-item" href="#projects">PROJECTS</a>
+          </li>
+          <li><a class="nav-item" href="#education">EDU</a>
+          </li>
+        </ul>
+      </nav>
     <div style="clear: both;"></div>
     <div id="workExperience" class="gray">
       <h2>Work Experience</h2>
@@ -95,7 +106,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   dynamically when this website, index.html, is opened.
   -->
   <script src="js/resumeBuilder.js"></script>
-
+  <script src="js/navigation.js"></script>
 
   <!--
   These scripts are written in JavaScript. You'll be breaking them down as part of
@@ -104,6 +115,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   of the resume, then that part of the resume does not show up. More on this in the
   course.
   -->
+<!-- Latest compiled and minified JS -->
 
   <script>
     // Notice how all of a sudden there's JavaScript inside this HTML

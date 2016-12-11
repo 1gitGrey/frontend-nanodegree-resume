@@ -84,7 +84,7 @@ var education = {
 					"name":"Campbell High School",
 					"location":"Smyrna, GA",
 					"degree":"Georgia HS Diploma",
-					"majors":["HL Visual Arts", "HL Mathematics"],
+					"majors":["HL Visual Arts ", "HL Mathematics "],
 					"dates": "2009-2013",
 					"url": "http://www.cobbk12.org/campbellhs/"
 
@@ -93,7 +93,7 @@ var education = {
 				 	"name" : "International Baccalaureate Programme",
 				 	"location" : "Augsburg, Germany",
 				 	"degree" : "Arbitur Exams",
-				 	"majors" : ["SL Physik", "Ethik", "Kunst", "Juristerei"],
+				 	"majors" : ["SL Physics ", "Ethik ", "Kunst ", "Juristerei "],
 				 	"dates" : "2008-2010",
 				 	"url" : "http://ibo.edu"
 			 	}
@@ -136,11 +136,11 @@ if(education.schools.length > 0 || education.onlineCourses.length > 0) {
 				var formattedOnlineTitle = HTMLonlineTitle.replace("%data%", education.onlineCourses[i].title).replace("#", education.onlineCourses[i].url);
 				var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[i].school).replace("#", education.schools[i].url);
 				var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[i].dates);
-				var formattedOnlineURL = HTMLonlineURL.replace("%data%", education.onlineCourses[i].url).replace("#", education.onlineCourses[i].url);
+				//var formattedOnlineURL = HTMLonlineURL.replace("%data%", education.onlineCourses[i].url).replace("#", education.onlineCourses[i].url);
 
 				$(".education-entry:last").append(formattedOnlineTitle + formattedOnlineSchool);
 				$(".education-entry:last").append(formattedOnlineDates);
-				$(".education-entry:last").append(formattedOnlineURL);
+				//$(".education-entry:last").append(formattedOnlineURL);
 			}
 		}
 
@@ -218,30 +218,27 @@ var projects = {
 			"images" : [ "images/proj_c_1.jpg", "images/proj_c_2.jpg"]
 		}
 	], "display" : function() {
-if(projects.projects.length > 0) {
-		for(i in projects.projects) {
-			$("#projects").append(HTMLprojectStart);
+			if(projects.projects.length > 0) {
+					for(i in projects.projects) {
+					$("#projects").append(HTMLprojectStart);
 
-			var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.projects[i].title).replace("#", projects.projects[i].url);
-			var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.projects[i].dates);
-			var formattedProjectDescription = HTMLprojectDescription.replace("%data%", projects.projects[i].description);
+					var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.projects[i].title).replace("#", projects.projects[i].url);
+					var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.projects[i].dates);
+					var formattedProjectDescription = HTMLprojectDescription.replace("%data%", projects.projects[i].description);
 
-			$(".project-entry:last").append(formattedProjectTitle);
-			$(".project-entry:last").append(formattedProjectDates);
-			$(".project-entry:last").append(formattedProjectDescription);
+					$(".project-entry:last").append(formattedProjectTitle);
+					$(".project-entry:last").append(formattedProjectDates);
+					$(".project-entry:last").append(formattedProjectDescription);
 
-			for(img in projects.projects[i].images) {
-				var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.projects[i].images[img]);
-				$(".project-entry:last").append(formattedProjectImage);
+					for(img in projects.projects[i].images) {
+						var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.projects[i].images[img]);
+						$(".project-entry:last").append(formattedProjectImage);
+					}
 			}
 
-
 		}
-
-}
-	}
-
-};
+	   }
+	};
 
 bio.display();
 work.display();
