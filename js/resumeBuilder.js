@@ -15,12 +15,12 @@ var bio = {
 			          	"Diverse Viewpoints",
 			          	"Critical Abstract Thinker"
         		],
-			  		"bioPic": "images/grey.jpg",
+			  		"biopic": "images/grey.jpg",
 	  			"display":
 				function(){
   					var formattedName = HTMLheaderName.replace("%data%", bio.name);
 					var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
-					var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
+					var formattedBioPic = HTMLbioPic.replace("%data%", bio.biopic);
 					var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
 
 					var formattedContactArray = [];
@@ -38,16 +38,23 @@ var bio = {
 					if(bio.skills.length > 0) {
 						$("#header").append(HTMLskillsStart);
 
-						for(i in bio.skills) {
-							$("#skills").append(HTMLskills.replace("%data%", bio.skills[i]));
+						//for(i in bio.skills) {
+						//	$("#skills").append(HTMLskills.replace("%data%", bio.skills[i]));
+						//}
+
+						var bioSkillsArray = bio.skills
+						for ( var index = 0 ; index < bioSkillsArray.length; index++) {
+
+							$("#skills").append(HTMLskills.replace("%data%", bioSkillsArray[index]))
 						}
+
+
 					}
 
-					for(i in formattedContactArray) {
-						$("#topContacts").append(formattedContactArray[i]);
-						$("#footerContacts").append(formattedContactArray[i]);
-					}
-
+						for (var indexCount = 0; indexCount < formattedContactArray.length; indexCount++) {
+							$("#topContacts").append(formattedContactArray[indexCount]);
+							$("#footerContacts").append(formattedContactArray[indexCount]);
+						}
 
           							 }
           							};
@@ -80,7 +87,7 @@ var education = {
 				 	"name" : "International Baccalaureate Programme",
 				 	"location" : "Augsburg, Germany",
 				 	"degree" : "Arbitur Exams",
-				 	"majors" : ["SL Physics ", "Ethik ", "Kunst ", "Juristerei "],
+				 	"majors" : ["SL Physics", "Ethik", "Kunst", "Juristerei"],
 				 	"dates" : "2008-2010",
 				 	"url" : "http://ibo.edu"
 			 	}
@@ -101,7 +108,7 @@ var education = {
 
 							"display": function(){
 if(education.schools.length > 0 || education.onlineCourses.length > 0) {
-		for(i in education.schools) {
+		for(var i =0; i < education.schools.length; i++) {
 			$("#education").append(HTMLschoolStart);
 
 			var formattedSchoolName = HTMLschoolName.replace("%data%", education.schools[i].name).replace("#", education.schools[i].url);
@@ -118,7 +125,7 @@ if(education.schools.length > 0 || education.onlineCourses.length > 0) {
 
 		if(education.onlineCourses.length > 0) {
 			$("#education").append(HTMLonlineClasses);
-			for(i in education.onlineCourses) {
+			for(var i = 0; i < education.onlineCourses.length; i++) {
 				$("#education").append(HTMLschoolStart);
 				var formattedOnlineTitle = HTMLonlineTitle.replace("%data%", education.onlineCourses[i].title).replace("#", education.onlineCourses[i].url);
 				var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[i].school).replace("#", education.schools[i].url);
@@ -161,7 +168,7 @@ var work = {
 	}
 
 	], "display" : function(){
-		for(i in work.jobs) {
+		for(var i=0; i < work.jobs.length; i++) {
 			var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[i].employer);
 			var formattedWorkTitle = HTMLworkTitle.replace("%data%", work.jobs[i].title);
 			var formattedWorkLocation = HTMLworkLocation.replace("%data%", work.jobs[i].location);
@@ -206,7 +213,7 @@ var projects = {
 		}
 	], "display" : function() {
 			if(projects.projects.length > 0) {
-					for(i in projects.projects) {
+					for(var i=0; i < projects.projects.length; i++) {
 					$("#projects").append(HTMLprojectStart);
 
 					var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.projects[i].title).replace("#", projects.projects[i].url);
@@ -217,7 +224,12 @@ var projects = {
 					$(".project-entry:last").append(formattedProjectDates);
 					$(".project-entry:last").append(formattedProjectDescription);
 
-					for(img in projects.projects[i].images) {
+				//	for(img in projects.projects[i].images) {
+				//		var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.projects[i].images[img]);
+				//		$(".project-entry:last").append(formattedProjectImage);
+				//	}
+
+					for(var img=0; img < projects.projects[i].images.length; img++) {
 						var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.projects[i].images[img]);
 						$(".project-entry:last").append(formattedProjectImage);
 					}
