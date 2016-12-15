@@ -23,8 +23,11 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   <title>Resume</title>
 
   <!-- Load the page styles. -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
+  <link href="css/skeleton.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 <!-- Latest compiled and minified CSS -->
 
 <link href="https://fonts.googleapis.com/css?family=Heebo|Lato" rel="stylesheet">
@@ -48,18 +51,20 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     </div>
     <nav id="nav-bar" class="">
         <ul id="nav-menu">
+        <li><a href="#workExperience" class="nav-item"><i class="fa fa-address-book" aria-hidden="true"></i></a></li>
           <li><a class="nav-item" href="#workExperience">WORK</a>
           </li>
           <li><a class="nav-item" href="#projects">PROJECTS</a>
           </li>
-          <li><a class="nav-item" href="#education">EDU</a>
+          <li><a class="nav-item" href="#education">EDUCATION</a>
           </li>
         </ul>
       </nav>
+      <div class="container">
     <div style="clear: both;"></div>
-    <div id="workExperience" class="gray">
-      <h2>Work Experience</h2>
-    </div>
+    <div id="workExperience" class="gray row">
+      <div class="u-full-width"><h2>Work Experience</h2>
+    </div></div>
     <div id="projects">
       <h2>Projects</h2>
     </div>
@@ -68,7 +73,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     </div>
     <div id="mapDiv">
       <h2>Where I've Lived and Worked</h2>
-    </div>
+    </div></div>
     <div id="lets-connect" class="dark-gray">
       <h2 class="orange center-text">Let's Connect</h2>
         <ul id="footerContacts" class="flex-box">
