@@ -30,10 +30,8 @@ var bio = {
 					formattedContactArray.push(HTMLlocation.replace("%data%", bio.contacts.location));
 
 
-					$("#header").prepend(formattedRole);
-					$("#header").prepend(formattedName);
-					$("#header").append(formattedBioPic);
-					$("#header").append(formattedWelcomeMsg);
+					$("#header").prepend(formattedRole, formattedName);
+					$("#header").append(formattedBioPic, formattedWelcomeMsg);
 
 					if(bio.skills.length > 0) {
 						$("#header").append(HTMLskillsStart);
@@ -118,9 +116,7 @@ if(education.schools.length > 0 || education.onlineCourses.length > 0) {
 			var formattedSchoolMajors = HTMLschoolMajor.replace("%data%", education.schools[i].majors);
 
 			$(".education-entry:last").append(formattedSchoolName + formattedSchoolDegree);
-			$(".education-entry:last").append(formattedSchoolDates);
-			$(".education-entry:last").append(formattedSchoolLocation);
-			$(".education-entry:last").append(formattedSchoolMajors);
+			$(".education-entry:last").append(formattedSchoolDates, formattedSchoolLocation, formattedSchoolMajors);
 		}
 
 		if(education.onlineCourses.length > 0) {
